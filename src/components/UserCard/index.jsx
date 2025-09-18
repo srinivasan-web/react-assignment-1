@@ -26,9 +26,6 @@ export default function UserCard({ user }) {
             <strong>Address:</strong> {user.address.street},{" "}
             {user.address.suite}, {user.address.city}, {user.address.zipcode}
           </p>
-          <p className="mb-0 website">
-            <strong>Website:</strong> {user.website}
-           </p>
           <p className="mb-0">
             <strong>Company:</strong> {user.company.name}
           </p>
