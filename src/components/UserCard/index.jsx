@@ -28,7 +28,7 @@ export default function UserCard({ user }) {
           </p>
           <p className="mb-0">
             <strong>Website:</strong> {user.website}
-          </p>
+           </p>
           <p className="mb-0">
             <strong>Company:</strong> {user.company.name}
           </p>
