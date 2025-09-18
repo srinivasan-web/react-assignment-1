@@ -27,6 +27,9 @@ export default function UserCard({ user }) {
             {user.address.suite}, {user.address.city}, {user.address.zipcode}
           </p>
           <p className="mb-0">
+            <strong>Website:</strong> {user.website}
+          </p>
+          <p className="mb-0">
             <strong>Company:</strong> {user.company.name}
           </p>
         </div>
