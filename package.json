@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "start": "react-scripts start",
+=======
+       "start": "react-scripts start",
+>>>>>>> 68b724d8a011c5bd167940660d9294c8768f8016
     "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
